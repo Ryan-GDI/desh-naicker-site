@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light">
+  <title>Deshnie Naicker — Head of Strategy &amp; Finance</title>
+  <meta name="description" content="Deshnie Naicker — Strategy and finance executive and experienced entrepreneur with 18+ years in financial services. Head of Strategy &amp; Finance, Standard Bank Group Investments.">
+  <meta name="author" content="Deshnie Naicker">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Deshnie Naicker — Head of Strategy &amp; Finance">
+  <meta property="og:description" content="Strategy and finance executive and experienced entrepreneur with 18+ years in financial services.">
+  <meta property="og:url" content="https://deshnie.naicker.cc">
+  <meta property="og:site_name" content="Deshnie Naicker">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Deshnie Naicker — Head of Strategy &amp; Finance">
+  <meta name="twitter:description" content="Strategy and finance executive and experienced entrepreneur with 18+ years in financial services.">
+
+  <link rel="canonical" href="https://deshnie.naicker.cc">
+
+  <!-- Favicon: gold monogram -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231A1A1A'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='52' fill='%23C9A84C' text-anchor='middle'%3EDN%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Deshnie Naicker",
+    "jobTitle": "Head of Strategy & Finance",
+    "worksFor": { "@type": "Organization", "name": "Standard Bank Group Investments" },
+    "url": "https://deshnie.naicker.cc",
+    "email": "deshnie.naidoo@gmail.com",
+    "telephone": "+27832366576",
+    "address": { "@type": "PostalAddress", "addressLocality": "Johannesburg", "addressCountry": "ZA" },
+    "alumniOf": ["University of Oxford", "Australian Institute of Business", "University of KwaZulu-Natal"],
+    "knowsAbout": ["Strategy", "Finance", "Business Transformation", "Financial Inclusion", "Digital Investment Solutions"]
+  }
+  </script>
+
+  <style>
+    :root {
+      --gold: #C9A84C;
+      --gold-bright: #DCC274;
+      --gold-light: #F5E6B8;
+      --gold-pale: #FBF6E9;
+      --black: #141312;
+      --black-soft: #1F1D1A;
+      --ink: #2A2824;
+      --paper: #FBFAF7;
+      --paper-warm: #F4F1EA;
+      --grey: #55504A;
+      --grey-soft: #8A847B;
+      --rule: #E2DCCF;
+      --rule-dark: #3A352E;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; color-scheme: light; background: #FBFAF7; }
+    body {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      background: var(--paper);
+      color: var(--ink);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: var(--gold); color: var(--black); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 clamp(1.5rem, 5vw, 4rem); height: 70px;
+      background: rgba(244,241,234,0.0);
+      transition: background 0.4s ease, height 0.4s ease, border-color 0.4s ease;
+      border-bottom: 1px solid transparent;
+    }
+    nav.scrolled {
+      background: rgba(251,250,247,0.97);
+      height: 60px;
+      border-bottom: 1px solid var(--rule);
+      backdrop-filter: blur(8px);
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600;
+      letter-spacing: 4px; color: #9A7B1E; text-decoration: none; transition: color 0.4s;
+    }
+    nav.scrolled .nav-logo { color: #9A7B1E; }
+    .nav-links { display: flex; gap: clamp(1.2rem, 3vw, 2.5rem); list-style: none; }
+    .nav-links a {
+      font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--ink); text-decoration: none;
+      font-weight: 500; position: relative; transition: color 0.25s;
+    }
+    nav.scrolled .nav-links a { color: var(--ink); font-weight: 500; }
+    .nav-links a::after {
+      content: ''; position: absolute; left: 0; bottom: -6px; width: 0; height: 1px;
+      background: var(--gold); transition: width 0.3s ease;
+    }
+    .nav-links a:hover { color: #9A7B1E; }
+    nav.scrolled .nav-links a:hover { color: #9A7B1E; }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-toggle { display: none; background: none; border: none; color: #9A7B1E; font-size: 22px; cursor: pointer; transition: color 0.4s; }
+    nav.scrolled .nav-toggle { color: #9A7B1E; }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      min-height: 100vh; background: var(--paper-warm);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 6rem 1.5rem 4rem; position: relative; overflow: hidden;
+      border-bottom: 3px solid var(--gold);
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background-image:
+        radial-gradient(circle at 50% 40%, rgba(201,168,76,0.12), transparent 55%);
+      pointer-events: none;
+    }
+    .hero-frame {
+      position: absolute; inset: clamp(1rem, 3vw, 2.5rem);
+      border: 1px solid rgba(180,150,70,0.40); pointer-events: none;
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 900px; }
+    .hero-eyebrow {
+      font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: 6px;
+      text-transform: uppercase; color: #9A7B1E; margin-bottom: 2rem; opacity: 0;
+      animation: fadeUp 0.9s ease 0.2s forwards;
+    }
+    .hero-name {
+      font-size: clamp(3rem, 9vw, 6.5rem); font-weight: 500; color: var(--black);
+      letter-spacing: clamp(2px, 1vw, 8px); line-height: 1.02; margin-bottom: 1.5rem;
+      opacity: 0; animation: fadeUp 1s ease 0.4s forwards;
+    }
+    .hero-name span { color: #B8941F; }
+    .hero-divider {
+      width: 80px; height: 1px; background: var(--gold); margin: 0 auto 1.5rem;
+      position: relative; opacity: 0; animation: fadeUp 1s ease 0.6s forwards;
+    }
+    .hero-divider::before, .hero-divider::after {
+      content: '◆'; position: absolute; top: -8px; color: var(--gold); font-size: 8px;
+    }
+    .hero-divider::before { left: -16px; }
+    .hero-divider::after { right: -16px; }
+    .hero-title {
+      font-family: 'Jost', sans-serif; font-size: clamp(13px, 2vw, 16px);
+      letter-spacing: 4px; text-transform: uppercase; color: var(--grey); font-weight: 400;
+      margin-bottom: 2.5rem; opacity: 0; animation: fadeUp 1s ease 0.7s forwards;
+    }
+    .hero-tags {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 0.7rem;
+      opacity: 0; animation: fadeUp 1s ease 0.9s forwards;
+    }
+    .hero-tag {
+      font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--grey); border: 1px solid var(--rule);
+      padding: 7px 18px; transition: all 0.3s; background: var(--paper);
+    }
+    .hero-tag:hover { border-color: var(--gold); color: #9A7B1E; }
+    .hero-cta { margin-top: 2.2rem; opacity: 0; animation: fadeUp 1s ease 1.05s forwards; }
+    .hero-download {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      font-family: 'Jost', sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--black); background: var(--gold); border: 1px solid var(--gold);
+      padding: 14px 32px; text-decoration: none; font-weight: 600; cursor: pointer;
+      transition: all 0.3s;
+    }
+    .hero-download:hover { background: transparent; color: #9A7B1E; }
+    .hero-download .arrow { font-size: 15px; line-height: 1; }
+    .scroll-hint {
+      position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+      font-family: 'Jost', sans-serif; font-size: 9px; letter-spacing: 3px;
+      text-transform: uppercase; color: var(--grey-soft); z-index: 2;
+      opacity: 0; animation: fadeUp 1s ease 1.2s forwards;
+    }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    .scroll-hint span { display: block; font-size: 16px; margin-top: 6px; animation: bob 2s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+
+    /* ---------- SECTIONS ---------- */
+    section { padding: clamp(4rem, 9vw, 7rem) clamp(1.5rem, 6vw, 2rem); background: var(--paper); }
+    .container { max-width: 980px; margin: 0 auto; }
+    .section-label {
+      font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: 4px;
+      text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 0.6rem;
+    }
+    .section-heading {
+      font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 500; color: var(--black);
+      line-height: 1.1; margin-bottom: 2rem;
+    }
+    .section-rule { border: none; border-top: 1px solid var(--rule); margin-bottom: 2.5rem; }
+
+    /* reveal animation */
+    .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+
+    /* ---------- PROFILE ---------- */
+    .profile-text {
+      font-size: clamp(1.25rem, 2.4vw, 1.6rem); line-height: 1.8; color: var(--black);
+      font-weight: 400; max-width: 800px;
+    }
+    .profile-text .drop { font-size: 1.3em; color: var(--gold); font-weight: 600; }
+
+    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 3.5rem 0; }
+    .metric { background: var(--paper); padding: 2.2rem 1.5rem; text-align: center; transition: background 0.3s; }
+    .metric:hover { background: var(--gold-pale); }
+    .metric-num { font-size: clamp(2.8rem, 5vw, 3.8rem); color: var(--gold); font-weight: 600; line-height: 1; margin-bottom: 0.6rem; }
+    .metric-label { font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--grey); font-weight: 400; }
+
+    /* ---------- COMPETENCIES ---------- */
+    .comp-section { background: var(--paper-warm); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .comp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem; }
+    .comp-item {
+      background: var(--paper); border-left: 3px solid var(--gold); padding: 1.1rem 1.2rem;
+      font-family: 'Jost', sans-serif; font-size: 12px; letter-spacing: 0.5px;
+      color: var(--ink); font-weight: 500; transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .comp-item:hover { transform: translateX(5px); box-shadow: -3px 4px 14px rgba(201,168,76,0.18); }
+
+    /* ---------- CAREER ---------- */
+    .timeline { position: relative; padding-left: 2rem; }
+    .timeline::before { content: ''; position: absolute; left: 0; top: 6px; bottom: 0; width: 1px; background: var(--rule); }
+    .tl-item { margin-bottom: 3rem; position: relative; }
+    .tl-item:last-child { margin-bottom: 0; }
+    .tl-item::before {
+      content: ''; position: absolute; left: calc(-2rem - 4px); top: 6px;
+      width: 9px; height: 9px; border-radius: 50%; background: var(--gold);
+      box-shadow: 0 0 0 4px var(--paper), 0 0 0 5px var(--gold);
+    }
+    .tl-period { font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem; font-weight: 500; }
+    .tl-role { font-size: clamp(1.3rem, 2.6vw, 1.7rem); font-weight: 600; color: var(--black); line-height: 1.15; margin-bottom: 0.2rem; }
+    .tl-org { font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: 0.5px; color: var(--black); margin-bottom: 0.9rem; font-weight: 400; }
+    .tl-bullets { list-style: none; }
+    .tl-bullets li { font-size: clamp(1.05rem, 2vw, 1.25rem); color: var(--black); line-height: 1.65; padding: 0.25rem 0 0.25rem 1.4rem; position: relative; }
+    .tl-bullets li::before { content: '▸'; position: absolute; left: 0; color: var(--gold); font-size: 0.85em; top: 0.5em; }
+
+    .early-table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
+    .early-table th { font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); font-weight: 600; text-align: left; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--rule); }
+    .early-table td { padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--rule); font-size: 1.05rem; color: var(--black); }
+    .early-table td:first-child { font-weight: 600; color: var(--black); }
+    .early-table td:last-child { font-family: 'Jost', sans-serif; font-size: 11px; color: var(--gold); letter-spacing: 0.5px; text-align: right; }
+
+    /* ---------- EDUCATION ---------- */
+    .edu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .edu-card { background: var(--paper-warm); padding: 1.6rem; border-bottom: 2px solid var(--gold); transition: transform 0.3s, box-shadow 0.3s; }
+    .edu-card:hover { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(201,168,76,0.18); }
+    .edu-year { font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: 2px; color: var(--gold); font-weight: 600; margin-bottom: 0.6rem; }
+    .edu-qual { font-size: 1.3rem; font-weight: 600; color: var(--ink); line-height: 1.25; margin-bottom: 0.3rem; }
+    .edu-inst { font-family: 'Jost', sans-serif; font-size: 11px; color: var(--grey-soft); letter-spacing: 0.3px; }
+    .edu-badge { display: inline-block; margin-top: 0.7rem; font-family: 'Jost', sans-serif; font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; background: var(--gold-light); color: #7A6020; padding: 4px 10px; font-weight: 600; }
+
+    .dev-list { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.5rem; }
+    .dev-pill { font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: 0.5px; color: var(--grey); border: 1px solid var(--rule); padding: 8px 16px; }
+
+    /* ---------- PHILOSOPHY ---------- */
+    .philosophy { background: var(--gold-pale); color: var(--ink); text-align: center; border-top: 3px solid var(--gold); border-bottom: 3px solid var(--gold); }
+    .philosophy .container { max-width: 800px; }
+    .quote-mark { font-size: 5rem; color: var(--gold); line-height: 0.5; opacity: 0.7; }
+    .quote-text { font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-style: italic; font-weight: 400; line-height: 1.5; margin: 1.5rem 0; color: var(--grey); }
+    .quote-text em { color: #9A7B1E; font-style: italic; }
+
+    /* ---------- CONTACT ---------- */
+    .contact { background: var(--paper-warm); color: var(--ink); border-top: 1px solid var(--rule); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+    .contact h2 { color: var(--ink); }
+    .contact .section-label { color: #9A7B1E; }
+    .contact-detail { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 1rem; font-family: 'Jost', sans-serif; font-size: 13px; letter-spacing: 0.5px; color: var(--grey); }
+    .contact-detail .ico { width: 36px; height: 36px; border: 1px solid var(--rule); display: flex; align-items: center; justify-content: center; color: #9A7B1E; flex-shrink: 0; }
+    .contact-detail a { color: var(--grey); text-decoration: none; transition: color 0.2s; }
+    .contact-detail a:hover { color: #9A7B1E; }
+    .contact-cta { text-align: right; }
+    .contact-cta .btn { display: inline-block; }
+    .btn {
+      display: inline-block; font-family: 'Jost', sans-serif; font-size: 12px; letter-spacing: 2px;
+      text-transform: uppercase; color: #9A7B1E; border: 1px solid var(--gold);
+      padding: 16px 38px; text-decoration: none; font-weight: 600; cursor: pointer;
+      background: transparent; transition: all 0.3s; position: relative; overflow: hidden;
+    }
+    .btn::before { content: ''; position: absolute; inset: 0; background: var(--gold); transform: translateX(-101%); transition: transform 0.35s ease; z-index: -1; }
+    .btn:hover { color: var(--black); }
+    .btn:hover::before { transform: translateX(0); }
+    .btn span { position: relative; z-index: 1; }
+
+    /* ---------- FOOTER ---------- */
+    footer { background: var(--paper); text-align: center; padding: 2.5rem 1.5rem; border-top: 1px solid var(--rule); }
+    .footer-mono { font-family: 'Cormorant Garamond', serif; font-size: 18px; letter-spacing: 4px; color: #9A7B1E; margin-bottom: 0.6rem; }
+    .footer-text { font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: 1px; color: var(--grey-soft); }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 760px) {
+      .nav-links { position: fixed; top: 60px; right: 0; flex-direction: column; background: rgba(251,250,247,0.99); padding: 1.5rem 2rem; gap: 1.2rem; transform: translateX(110%); transition: transform 0.35s ease; border-left: 1px solid var(--rule); box-shadow: -8px 0 24px rgba(0,0,0,0.06); }
+      .nav-links.open { transform: translateX(0); }
+      .nav-toggle { display: block; }
+      .metrics, .comp-grid, .edu-grid, .contact-grid { grid-template-columns: 1fr; }
+      .comp-grid { grid-template-columns: 1fr 1fr; }
+      .contact-cta { text-align: left; }
+      .early-table { font-size: 0.9rem; }
+    }
+    @media (max-width: 460px) {
+      .comp-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="#top" class="nav-logo">D · NAICKER</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#career">Career</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="Deshnie_Naicker_CV.pdf" download>CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-frame"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Standard Bank Group Investments</div>
+      <h1 class="hero-name">Deshnie <span>Naicker</span></h1>
+      <div class="hero-divider"></div>
+      <p class="hero-title">Head of Strategy &amp; Finance</p>
+      <div class="hero-tags">
+        <span class="hero-tag">Strategy</span>
+        <span class="hero-tag">Finance</span>
+        <span class="hero-tag">Business Transformation</span>
+        <span class="hero-tag">Experienced Entrepreneur</span>
+        <span class="hero-tag">18+ Years</span>
+      </div>
+      <div class="hero-cta">
+        <a href="Deshnie_Naicker_CV.pdf" download class="hero-download"><span class="arrow">&#8595;</span> Download CV</a>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll<span>↓</span></div>
+  </header>
+
+  <!-- PROFILE -->
+  <section id="profile">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Executive Profile</div>
+        <hr class="section-rule">
+      </div>
+      <p class="profile-text reveal"><span class="drop">A</span> strategy and finance executive — and experienced entrepreneur — with over 18 years in financial services, recognised for designing long-term strategic vision, driving commercial growth, and leading large-scale transformation. A trusted adviser to Boards and C-suite leaders, with a track record of integrating strategic insight, financial rigour, and operational leadership to deliver sustained competitive advantage in complex, regulated markets.</p>
+
+      <div class="metrics reveal">
+        <div class="metric"><div class="metric-num">18+</div><div class="metric-label">Years in Financial Services</div></div>
+        <div class="metric"><div class="metric-num">28%</div><div class="metric-label">AUM Growth Delivered</div></div>
+        <div class="metric"><div class="metric-num">15%</div><div class="metric-label">CAGR in Net New Flows</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCIES -->
+  <section class="comp-section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Core Competencies</div>
+        <hr class="section-rule">
+      </div>
+      <div class="comp-grid reveal">
+        <div class="comp-item">Strategic Leadership &amp; Vision</div>
+        <div class="comp-item">Enterprise Financial Strategy</div>
+        <div class="comp-item">Business Transformation</div>
+        <div class="comp-item">M&amp;A, Partnerships &amp; Ecosystems</div>
+        <div class="comp-item">Executive Stakeholder Engagement</div>
+        <div class="comp-item">Commercial &amp; Revenue Growth</div>
+        <div class="comp-item">Digital &amp; Product Innovation</div>
+        <div class="comp-item">Governance &amp; Risk Management</div>
+        <div class="comp-item">People Leadership &amp; Culture</div>
+        <div class="comp-item">Entrepreneurial Leadership</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREER -->
+  <section id="career">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Career History</div>
+        <h2 class="section-heading">A trajectory of strategic leadership</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-period">Apr 2018 – Present · Johannesburg</div>
+          <div class="tl-role">Head of Strategy &amp; Finance</div>
+          <div class="tl-org">Standard Bank Group Investments · Director Level</div>
+          <ul class="tl-bullets">
+            <li>Architected the 5-year strategic roadmap for Retail Investments, delivering a 28% increase in AUM and a 15% CAGR in net new flows; led product repositioning to digital-first distribution models.</li>
+            <li>Drove the redesign of Retail Investments following the Liberty acquisition; serves on Investments ExCo, Partnerships Steering, Bancassurance Manco, and Governance Committees.</li>
+            <li>Evaluated and structured strategic acquisitions, partnerships, and joint ventures across the SBG ecosystem, overseeing due diligence and client value proposition development.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-period">Apr 2016 – Apr 2018 · Johannesburg</div>
+          <div class="tl-role">Head of Finance</div>
+          <div class="tl-org">Standard Bank Wealth · Senior Manager</div>
+          <ul class="tl-bullets">
+            <li>Chaired Manco committees and championed a new Central Finance operating model; led governance, budgeting, and strategic planning processes.</li>
+            <li>Headed the Reporting organisation for the SA Wealth &amp; Investment Executive; identified and delivered revenue enhancement and cost-saving initiatives.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-period">Jun 2014 – Apr 2016 · Johannesburg</div>
+          <div class="tl-role">VP / Head of MI &amp; Analytics</div>
+          <div class="tl-org">Barclays Wealth &amp; Investment Management · Vice President</div>
+          <ul class="tl-bullets">
+            <li>Led the KPI analytics function, providing executive leadership with data-driven intelligence to underpin strategic decision-making and competitive advantage.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-period">Mar 2011 – May 2014 · Johannesburg</div>
+          <div class="tl-role">VP / Head of Cost MI &amp; Reporting</div>
+          <div class="tl-org">Barclays CIB / Absa Capital · Vice President</div>
+          <ul class="tl-bullets">
+            <li>Directed financial planning, budgeting, and forecasting for CIB; implemented Flash, quarterly, and year-end reporting frameworks.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-period">Earlier Career</div>
+          <table class="early-table">
+            <thead><tr><th>Role</th><th>Organisation</th><th>Period</th></tr></thead>
+            <tbody>
+              <tr><td>Head of Income Statement Reporting</td><td>Standard Bank</td><td>2007 – 2011</td></tr>
+              <tr><td>Financial Planner</td><td>SABMiller</td><td>2005 – 2007</td></tr>
+              <tr><td>Accountant: Treasury Operations</td><td>SA Petroleum Refineries</td><td>2004 – 2005</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="comp-section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Education &amp; Credentials</div>
+        <hr class="section-rule">
+      </div>
+      <div class="edu-grid reveal">
+        <div class="edu-card">
+          <div class="edu-year">2024</div>
+          <div class="edu-qual">Oxford Strategic Leadership Programme</div>
+          <div class="edu-inst">Saïd Business School, University of Oxford</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2018</div>
+          <div class="edu-qual">Master of Business Administration</div>
+          <div class="edu-inst">Australian Institute of Business</div>
+          <span class="edu-badge">Cum Laude · Dean's Merit Award</span>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2014</div>
+          <div class="edu-qual">National Certificate: Financial Markets &amp; Instruments</div>
+          <div class="edu-inst">BankSeta</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2001</div>
+          <div class="edu-qual">BComm Accounting</div>
+          <div class="edu-inst">University of KwaZulu-Natal</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="dev-list">
+          <span class="dev-pill">Journey to Greatness — Standard Bank</span>
+          <span class="dev-pill">Senior Leadership Programme — Standard Bank</span>
+          <span class="dev-pill">Talent Accelerator — Barclays / Absa</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy">
+    <div class="container reveal">
+      <div class="quote-mark">&ldquo;</div>
+      <p class="quote-text">Deeply passionate about <em>financial inclusion</em>, product innovation, and the evolution of <em>digital investment solutions</em>.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="section-label">Get in Touch</div>
+          <h2 class="section-heading">Let's connect</h2>
+          <div class="contact-detail">
+            <span class="ico">✉</span>
+            <a href="mailto:deshnie.naidoo@gmail.com">deshnie.naidoo@gmail.com</a>
+          </div>
+          <div class="contact-detail">
+            <span class="ico">☎</span>
+            <a href="tel:+27832366576">+27 (0)83 236 6576</a>
+          </div>
+          <div class="contact-detail">
+            <span class="ico">⌖</span>
+            <span>Johannesburg, South Africa</span>
+          </div>
+        </div>
+        <div class="contact-cta reveal">
+          <a href="mailto:deshnie.naidoo@gmail.com?subject=Executive%20Opportunity" class="btn"><span>Send a Message</span></a>
+          <a href="Deshnie_Naicker_CV.pdf" download class="btn" style="margin-top: 1rem;"><span>&#8595;&nbsp; Download CV</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-mono">D · NAICKER</div>
+    <div class="footer-text">© <span id="year"></span> Deshnie Naicker · Head of Strategy &amp; Finance · Johannesburg</div>
+  </footer>
+
+  <script>
+    // Nav scroll state
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Mobile menu
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+    // Scroll reveal
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el, i) => {
+      el.style.transitionDelay = (i % 4 * 0.08) + 's';
+      io.observe(el);
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
